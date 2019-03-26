@@ -16,13 +16,14 @@ a {
   height: 100%;
   font-size: 30px;
   position: relative;
+  display: block;
 }
 
 .nav:hover {
   background-color: rgba(160,160,160,0.3);
 }
 
-.nav a {
+.nav p {
   position: absolute;
   margin: 0px;
   top: 50%;
