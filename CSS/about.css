@@ -11,23 +11,30 @@ a {
 #navbar {
   background-color: rgba(160,160,160,0.3);
   height: 10%;
+  width: 100%;
 }
 
 #row1 {
   height: 100%;
 }
 
-#row1 div {
+#row1 a {
+  display: block;
   text-align: center;
   height: 100%;
   position: relative;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
 }
 
-#row1 div:hover {
+#row1 a:hover {
   background-color: rgba(200,200,200,0.5);
 }
 
-#row1 div a {
+#row1 a p {
   display: block;
   font-size: 20px;
   position: absolute;
@@ -35,11 +42,32 @@ a {
   top: 60%;
   height: 30%;
   width: 100%;
-  margin-top: -15%;
+  margin-top: -13%;
 }
 
-#about a {
+#about {
+	border-bottom: 5px purple solid;
+	box-sizing: border-box;
+}
+
+#about p {
   color: purple;
+  font-weight: bold;
+}
+
+#row2 {
+	margin-top: 5%;
+}
+
+#about1 p, #about2 p {
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+
+
+#row3 {
+	
 }
 
 /********************GRID************************/
