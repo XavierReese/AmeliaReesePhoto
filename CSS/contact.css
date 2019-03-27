@@ -1,0 +1,92 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#navbar {
+  background-color: rgba(160,160,160,0.3);
+  height: 10%;
+  width: 100%;
+}
+
+#row1 {
+  height: 100%;
+}
+
+#row1 a {
+  display: block;
+  text-align: center;
+  height: 100%;
+  position: relative;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+#row1 a:hover {
+  background-color: rgba(200,200,200,0.5);
+}
+
+#row1 a p {
+  display: block;
+  font-size: 20px;
+  position: absolute;
+  margin: 0px;
+  top: 60%;
+  height: 30%;
+  width: 100%;
+  margin-top: -13%;
+}
+
+#contact {
+	border-bottom: 5px purple solid;
+	box-sizing: border-box;
+}
+
+#contact p {
+  color: purple;
+  font-weight: bold;
+}
+
+
+
+/********************GRID************************/
+
+/* 12-column responsive grid */
+
+.row {
+    clear: both;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+[class^="col-"] {
+    float: left;
+    margin: 0 3.84615384615% 0 0;
+    list-style: none;
+    position: relative;
+}
+
+[class^="col-"]:last-child {
+    margin: 0;
+}
+
+.col-1 { width: 4.8076923077% }
+.col-2 { width: 13.4615384615% }
+.col-3 { width: 22.1153846154% }
+.col-4 { width: 30.7692307692% }
+.col-5 { width: 39.4230769231% }
+.col-6 { width: 48.0769230769% }
+.col-7 { width: 56.7307692308% }
+.col-8 { width: 65.3846153846% }
+.col-9 { width: 74.0384615385% }
+.col-10 { width: 82.6923076923% }
+.col-11 { width: 91.3461538462% }
+.col-12 { width: 100%; margin: 0 }
